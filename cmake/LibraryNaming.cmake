@@ -16,6 +16,8 @@ macro(check_group_build_target symbol group)
 	endif()
 endmacro()
 
+# I went to random file to trigger "build" workflow in this branch... Everything else was unchanged
+
 # So there is a problem:
 # 1. Total number of these symbols only grows, as we support more and more ports
 # 2. CMake don't have a way to check symbols in parallel (similar to Waf's multicheck)
